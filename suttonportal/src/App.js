@@ -40,7 +40,7 @@ export default function App() {
       {({ signOut, user }) => (
         <main>
 
-          <h1>Hi {user.username}</h1>
+          <h1>Hi user {user.username}</h1>
       <Admin layout={AppBarLayout} dataProvider={dataProvider} >
          <Resource name="posts" options={{ label: 'Posts' }} list={PostList} show={PostShow} edit={PostEdit} icon={PostIcon} />
          <Resource name="users" options={{ label: 'Users' }} list={UserList} icon={UserIcon} />
