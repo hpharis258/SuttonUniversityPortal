@@ -5,7 +5,7 @@ describe('Authenticator:', function() {
   });
   
   describe('Sign In:', () => {
-    it('allows a user to signin', () => {
+    it('allows a user to sign in and sign out', () => {
       // Step 2: Take an action (Sign in)
       cy.get('input:first').type("hpharis258@gmail.com");
       cy.get('input:last').type("wWzxdzJLn5S4F@j");
