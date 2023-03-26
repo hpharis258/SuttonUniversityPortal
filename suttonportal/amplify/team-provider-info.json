@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-suttonportal-dev-175743-authRole",
+      "UnauthRoleArn": "arn:aws:iam::689850749655:role/amplify-suttonportal-dev-175743-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::689850749655:role/amplify-suttonportal-dev-175743-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-suttonportal-dev-175743-deployment",
+      "UnauthRoleName": "amplify-suttonportal-dev-175743-unauthRole",
+      "StackName": "amplify-suttonportal-dev-175743",
+      "StackId": "arn:aws:cloudformation:us-west-1:689850749655:stack/amplify-suttonportal-dev-175743/552aeab0-cbf7-11ed-a846-02d5db14e239",
+      "AmplifyAppId": "d3383x2wgqrw9h"
+    },
+    "categories": {
+      "auth": {
+        "suttonportaldc50d665": {}
+      }
+    }
+  }
+}
