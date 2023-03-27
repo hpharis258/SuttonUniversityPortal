@@ -1,7 +1,7 @@
 describe('Authenticator:', function() {
   // Step 1: setup the application state
   beforeEach(function() {
-    cy.visit('https://github.com/hpharis258/SuttonUniversityPortal/tree/main');
+    cy.visit('http://localhost:3000');
   });
   
   describe('Sign In:', () => {
